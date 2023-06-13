@@ -12,7 +12,7 @@ body {
 
 .text-element {
   font-family: 'Exo 2', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
     line-height: 1.6;
     text-align: left;
     color: rgb(255, 255, 255);
@@ -42,10 +42,10 @@ body {
 
   
   /* Tablets und kleinere Desktops */
-  @media (min-width: 769px) and (max-width: 992px) {
+  @media (min-width: 0px) and (max-width: 992px) {
     .text-element { 
         width: 70%; 
-        font-size: 30px;
+        font-size: 24px;
 
        
     }
@@ -61,7 +61,7 @@ body {
   /* Große Desktops */
   @media (min-width: 1201px) {
     .text-element { 
-        width: 30%; 
+        width: 20%; 
     }
   }
   
