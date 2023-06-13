@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+body {
+    animation: colorchange 20s infinite; /* Die Animation dauert 5 Sekunden und wiederholt sich unendlich */
+}
+
+@keyframes colorchange {
+    0% {background: rgb(242, 123, 253);} /* Bei 0% der Animation ist der Hintergrund weiß */
+    50% {background: rgb(255, 82, 174);} /* Bei 50% der Animation wird der Hintergrund rosa */
+    100% {background: rgb(242, 123, 253);} /* Bei 100% der Animation kehrt der Hintergrund wieder zu Weiß zurück */
+}
+
+.text-element {
+  font-family: 'Exo 2', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    align-items: center;
+
+  }
+  #myContainer {
+    align-items: center;
+  }
+
+  @keyframes colorChange {
+  
+  
+  }
+  
+  .color-changing-image {
+    animation: colorChange 8s linear infinite; /* Ändere die Dauer nach Bedarf */
+  }
+  
+
+  
+
+  /* Smartphones (Portrait) */
+@media (max-width: 576px) {
+    .text-element { 
+        width: 75%; 
+        font-size: 1.0em;
+    }
+  }
+  
+  /* Smartphones (Landscape) und kleine Tablets */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .text-element { 
+        width: 60%; 
+    }
+  }
+  
+  /* Tablets und kleinere Desktops */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .text-element { 
+        width: 40%; 
+    }
+  }
+  
+  /* Desktops und größere Tablets */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .text-element { 
+        width: 40%; 
+    }
+  }
+  
+  /* Große Desktops */
+  @media (min-width: 1201px) {
+    .text-element { 
+        width: 20%; 
+    }
+  }
+  
